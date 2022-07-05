@@ -18,6 +18,7 @@ body {
 .fa-circle-check{
   margin-top: 30px;
   color: rgb(7, 160, 7);
+  /* filter: drop-shadow(0 10px 10px rgb(151, 151, 151)); */
 }
 
 .fa-face-frown{
@@ -52,4 +53,20 @@ body {
   margin-bottom: 20px;
   border-top-left-radius: 0;
   border-top-right-radius: 0;
+}
+
+.fa-github{
+  color: rgb(97, 96, 96);
+}
+.fa-github:hover{
+  color: rgb(46, 46, 78);
+}
+
+.fa-envelope-circle-check{
+  background-image: linear-gradient(to right, #0d6efd, rgb(0, 225, 255));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-bottom: 50px;
+  filter: drop-shadow(10px 10px 10px red);
+
 }
