@@ -67,6 +67,4 @@ body {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   margin-bottom: 50px;
-  filter: drop-shadow(10px 10px 10px red);
-
 }
